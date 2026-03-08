@@ -46,7 +46,9 @@
       "@parcel/watcher"
     ],
     "overrides": {
-      "minimatch@<10.2.1": ">=10.2.1"
+      "minimatch@<10.2.1": ">=10.2.1",
+      "minimatch@>=10.0.0 <10.2.3": ">=10.2.3",
+      "immutable@>=5.0.0 <5.1.5": ">=5.1.5"
     }
   }
 }
