@@ -6,7 +6,7 @@
   "repository": {
     "url": "git+https://github.com/HardTurn/logistics.git"
   },
-  "packageManager": "pnpm@10.31.0",
+  "packageManager": "pnpm@10.32.1",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --hot --mode development",
@@ -27,11 +27,11 @@
   "license": "ISC",
   "dependencies": {
     "css-loader": "^7.1.4",
-    "mini-css-extract-plugin": "^2.10.0",
-    "sass": "^1.97.3",
+    "mini-css-extract-plugin": "^2.10.1",
+    "sass": "^1.98.0",
     "sass-loader": "^16.0.7",
     "webpack": "^5.105.4",
-    "webpack-cli": "^6.0.1",
+    "webpack-cli": "^7.0.0",
     "webpack-dev-server": "^5.2.3"
   },
   "devDependencies": {
