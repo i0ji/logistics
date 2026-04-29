@@ -6,7 +6,7 @@
   "repository": {
     "url": "git+https://github.com/HardTurn/logistics.git"
   },
-  "packageManager": "pnpm@10.32.1",
+  "packageManager": "pnpm@10.33.2",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --hot --mode development",
@@ -27,19 +27,19 @@
   "license": "ISC",
   "dependencies": {
     "css-loader": "^7.1.4",
-    "mini-css-extract-plugin": "^2.10.1",
-    "sass": "^1.98.0",
+    "mini-css-extract-plugin": "^2.10.2",
+    "sass": "^1.99.0",
     "sass-loader": "^16.0.7",
-    "webpack": "^5.105.4",
-    "webpack-cli": "^7.0.0",
+    "webpack": "^5.106.2",
+    "webpack-cli": "^7.0.2",
     "webpack-dev-server": "^5.2.3"
   },
   "devDependencies": {
     "clean-webpack-plugin": "^4.0.0",
     "copy-webpack-plugin": "^14.0.0",
     "gh-pages": "^6.3.0",
-    "html-webpack-plugin": "^5.6.6",
-    "webpack-dev-middleware": "7.4.5"
+    "html-webpack-plugin": "^5.6.7",
+    "webpack-dev-middleware": "8.0.3"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
@@ -48,7 +48,8 @@
     "overrides": {
       "minimatch@<10.2.1": ">=10.2.1",
       "minimatch@>=10.0.0 <10.2.3": ">=10.2.3",
-      "immutable@>=5.0.0 <5.1.5": ">=5.1.5"
+      "immutable@>=5.0.0 <5.1.5": ">=5.1.5",
+      "uuid@<14.0.0": ">=14.0.0"
     }
   }
 }
