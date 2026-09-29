@@ -6,7 +6,7 @@
   "repository": {
     "url": "git+https://github.com/HardTurn/logistics.git"
   },
-  "packageManager": "pnpm@10.33.2",
+  "packageManager": "pnpm@12.6.0",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --hot --mode development",
@@ -20,36 +20,22 @@
     "bootstrap",
     "model"
   ],
-  "overrides": {
-    "minimatch": "^10.2.1"
-  },
   "author": "Ivan <ioji@inbox.ru>",
   "license": "ISC",
   "dependencies": {
-    "css-loader": "^7.1.4",
+    "css-loader": "^7.1.5",
     "mini-css-extract-plugin": "^2.10.2",
-    "sass": "^1.99.0",
-    "sass-loader": "^16.0.7",
-    "webpack": "^5.106.2",
-    "webpack-cli": "^7.0.2",
-    "webpack-dev-server": "^5.2.3"
+    "sass": "^1.105.0",
+    "sass-loader": "^17.0.1",
+    "webpack": "^5.111.1",
+    "webpack-cli": "^7.2.3",
+    "webpack-dev-server": "^6.0.0"
   },
   "devDependencies": {
     "clean-webpack-plugin": "^4.0.0",
     "copy-webpack-plugin": "^14.0.0",
     "gh-pages": "^6.3.0",
-    "html-webpack-plugin": "^5.6.7",
-    "webpack-dev-middleware": "8.0.3"
-  },
-  "pnpm": {
-    "onlyBuiltDependencies": [
-      "@parcel/watcher"
-    ],
-    "overrides": {
-      "minimatch@<10.2.1": ">=10.2.1",
-      "minimatch@>=10.0.0 <10.2.3": ">=10.2.3",
-      "immutable@>=5.0.0 <5.1.5": ">=5.1.5",
-      "uuid@<14.0.0": ">=14.0.0"
-    }
+    "html-webpack-plugin": "^5.6.8",
+    "webpack-dev-middleware": "8.3.0"
   }
 }
